@@ -1,29 +1,68 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
     text-align: center;
-    padding: 50px;
 }
 
-h1 {
-    color: #0073b1; /* LinkedIn blue */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 
-a {
-    color: #0073b1;
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .container {
-    background: #fff;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.download-links a {
     display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-links a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
