@@ -1,33 +1,68 @@
-</div>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="download.html">Download</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-</header>
-<main>
-<section id="about" class="container">
-    <h2>About the App</h2>
-    <p>This app helps you to review and analyze stock market data efficiently.</p>
-</section>
-<section id="cv" class="container">
-    <h2>My CV</h2>
-    <button onclick="openCV()">Download my CV</button>
-</section>
-</main>
-<footer>
-<div class="container">
-    <p>&copy; 2024 Mark Henry. All rights reserved.</p>
-    <p>Contact: <a href="mailto:markhenry@ucdconnect.ie">markhenry@ucdconnect.ie</a></p>
-</div>
-</footer>
-<script>
-function openCV() {
-    window.open('Mark Henry CV 2024.pdf', '_blank', 'width=800,height=600');
-}
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Stock Review App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KTMH238Z');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WK06P187NL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WK06P187NL');
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTMH238Z"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <div class="logo">
+            <h1>Stock Review App (CURRENTLY UNDER DEVELOPMENT!)</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login Page</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="googleform.html">Request feature</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <h2>About the App</h2>
+            <p>This app helps you to review and analyze stock market data efficiently.</p>
+        </section>
+        <section id="cv" class="container">
+            <h2>My CV</h2>
+            <button onclick="openCV()">Download my CV</button>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mark Henry. All rights reserved.</p>
+            <p>Contact: <a href="mailto:markhenry@ucdconnect.ie">markhenry@ucdconnect.ie</a></p>
+        </div>
+    </footer>
+    <script>
+        function openCV() {
+            window.open('assets/cv.pdf', '_blank', 'width=800,height=600');
+        }
+    </script>
 </body>
 </html>
