@@ -1,34 +1,33 @@
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <h1>Stock Review App</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="download.html">Download</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about" class="container">
-            <h2>About the App</h2>
-            <p>This app helps you to review and analyze stock market data efficiently.</p>
-        </section>
-        <section id="cv" class="container">
-            <h2>My CV</h2>
-            <p>Download my CV <a href="path/to/your/cv.pdf" target="_blank">here</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Mark Henry. All rights reserved.</p>
-            <p>Contact: <a href="mailto:markhenry@ucdconnect.ie">markhenry@ucdconnect.ie</a></p>
-        </div>
-    </footer>
+</div>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+<section id="about" class="container">
+    <h2>About the App</h2>
+    <p>This app helps you to review and analyze stock market data efficiently.</p>
+</section>
+<section id="cv" class="container">
+    <h2>My CV</h2>
+    <button onclick="openCV()">Download my CV</button>
+</section>
+</main>
+<footer>
+<div class="container">
+    <p>&copy; 2024 Mark Henry. All rights reserved.</p>
+    <p>Contact: <a href="mailto:markhenry@ucdconnect.ie">markhenry@ucdconnect.ie</a></p>
+</div>
+</footer>
+<script>
+function openCV() {
+    window.open('Mark Henry CV 2024.pdf', '_blank', 'width=800,height=600');
+}
+</script>
 </body>
 </html>
